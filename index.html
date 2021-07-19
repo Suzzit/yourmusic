@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Really advanced Music player
+    </title>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+
+    <main>
+
+        <h1 id="titlehead">My Music</h1>
+
+        <div class="container">
+
+            <div id="img-wrapper">
+                <img src="./images/man-3262834.png" alt="Title image" id="music-image">
+            </div>
+
+                <div class="nav-wrapper">
+            <h3 id="music-info"></h3>
+
+            <div id="progress-bar">
+
+                <div id="progress">
+
+                </div>
+
+            </div>
+
+            <div id="song-navigation">
+                <button class="song-navigation-btns" id="prev-btn">
+                    <i class="fas fa-backward"></i>
+                </button>
+
+                <button class="song-navigation-btns big" id="play-btn">
+                    <i class="fas fa-play play-icon"></i>
+                    <i class="fas fa-pause pause-icon"></i>
+                </button>
+
+                <button class="song-navigation-btns" id="next-btn">
+                    <i class="fas fa-forward"></i>
+                </button>
+            </div>
+        </div>
+
+        </div>
+
+    </main>
+
+    <audio id="main-audio"></audio>
+
+
+<script src="./app.js"></script>
+
+</body>
+
+</html>
